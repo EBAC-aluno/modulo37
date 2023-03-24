@@ -11,11 +11,12 @@ spring.datasource.username={user name}
 spring.datasource.password={user password}    
 spring.datasource.driver-class-name =com.mysql.jdbc.Driver    
 ```
-```
 Then, run this Maven task:
+
 ```sh
 ./mvnw spring-boot:run
 ```
+
 ## REST API Methods
 You might want to access the endpoints using the following cURL commands.
 
